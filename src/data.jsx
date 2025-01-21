@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJs, FaReact, FaVuejs, FaNodeJs, FaAws } from 'react-icons/fa';
-import { SiTailwindcss, SiTypescript, SiVuetify, SiNestjs, SiRedux, SiMongodb} from 'react-icons/si';
+import { FaHtml5, FaJs, FaReact, FaVuejs, FaNodeJs, FaAws, FaPython } from 'react-icons/fa';
+import { SiTailwindcss, SiTypescript, SiVuetify, SiNestjs, SiRedux, SiMongodb, SiPandas, SiNumpy, SiTensorflow, SiPostgresql, SiFastapi} from 'react-icons/si';
 
 export const links = [
 	{ id: nanoid(), href: '#home', text: 'home'},
@@ -11,10 +11,10 @@ export const links = [
 
 export const skills = [
 	{
-		id: nanoid(),
-		title: 'HTML&CSS',
-		icon: <FaHtml5 className="h-14 w-14 text-violet-600"/>
-	},
+		id:nanoid(),
+		title: 'Python',
+		icon: <FaPython className="h-14 w-14 text-violet-600"/>
+	}, 
 	{
 		id: nanoid(),
 		title: 'Javascript',
@@ -27,8 +27,8 @@ export const skills = [
 	},
 	{
 		id: nanoid(),
-		title: 'AWS CCP',
-		icon: <FaAws className="h-14 w-14 text-violet-600"/>
+		title: 'HTML&CSS',
+		icon: <FaHtml5 className="h-14 w-14 text-violet-600"/>
 	},
 	{
 		id: nanoid(),
@@ -42,16 +42,6 @@ export const skills = [
 	},
 	{
 		id: nanoid(),
-		title: 'TailwindCss',
-		icon: <SiTailwindcss className="h-14 w-14 text-violet-600"/>
-	},
-	{
-		id: nanoid(),
-		title: 'Vuetify',
-		icon: <SiVuetify className="h-14 w-14 text-violet-600"/>
-	},
-	{
-		id: nanoid(),
 		title: 'NodeJs',
 		icon: <FaNodeJs className="h-14 w-14 text-violet-600"/>
 	},
@@ -62,6 +52,11 @@ export const skills = [
 	},
 	{
 		id: nanoid(),
+		title: 'FastAPI',
+		icon: <SiFastapi className="h-14 w-14 text-violet-600"/>
+	},
+	{
+		id: nanoid(),
 		title: 'Redux',
 		icon: <SiRedux className="h-14 w-14 text-violet-600"/>
 	},
@@ -69,5 +64,40 @@ export const skills = [
 		id: nanoid(),
 		title: 'MongoDB',
 		icon: <SiMongodb className="h-14 w-14 text-violet-600"/>
+	},
+	{
+		id: nanoid(),
+		title: 'PostgreSQL',
+		icon: <SiPostgresql className="h-14 w-14 text-violet-600"/>
+	},
+	{
+		id: nanoid(),
+		title: 'AWS',
+		icon: <FaAws className="h-14 w-14 text-violet-600"/>
+	},
+	{
+		id: nanoid(),
+		title: 'Pandas',
+		icon: <SiPandas className="h-14 w-14 text-violet-600"/>
+	},
+	{
+		id: nanoid(),
+		title: 'Numpy',
+		icon: <SiNumpy className="h-14 w-14 text-violet-600"/>
+	},
+	{
+		id: nanoid(),
+		title: 'Tensorflow',
+		icon: <SiTensorflow className="h-14 w-14 text-violet-600"/>
+	},
+	{
+		id: nanoid(),
+		title: 'TailwindCss',
+		icon: <SiTailwindcss className="h-14 w-14 text-violet-600"/>
+	},
+	{
+		id: nanoid(),
+		title: 'Vuetify',
+		icon: <SiVuetify className="h-14 w-14 text-violet-600"/>
 	},
 ];
