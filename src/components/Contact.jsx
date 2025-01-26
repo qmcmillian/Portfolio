@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTile from './SectionTile';
 import Form from './Form';
-import aboutSvg from '../components/main/icons/product-teardown.svg';
+import working from '../components/main/icons/working.svg';
 
 const Contact = () => {
   return (
@@ -12,7 +12,7 @@ const Contact = () => {
         </article>
         <article className="flex flex-col items-center text-center md:text-left">
           <SectionTile text='Contact Me' />
-          <img src={aboutSvg} alt='About' className='w-full max-w-md h-auto' />
+          <img src={working} alt='About' className='w-full max-w-md h-auto' />
         </article>
       </div>
     </section>
